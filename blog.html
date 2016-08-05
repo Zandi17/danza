@@ -4,12 +4,92 @@
 	<meta charset="UTF-8">
 	<title>Escuela de Danza</title>
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
-	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel="stylesheet" type="text/css" href="css/simplegrid.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/blog.css">
 </head>
 <body>
-	<!-- Inserta tu código aqui -->
+	<header>
+        <div class="container">
+            <div class="row mg-0">
+                <div class="col-12 text-center">
+                    <h1  class="pb-5 titulo">ESCUELA DE DANZA</h1>
+                    <nav class="pb-5">
+                        <a href="#">Nosotros</a>
+                        <a href="#">Clases</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Contáctanos</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+	<section id="fondo">
+		<div class="container">
+			<h2>BLOG</h2>
+			<div class="row">
+				<div class="col-3">
+					<img src="img/blog1.jpg" alt="">
+				</div>
+				<div class="col-9 parrafo">
+					<div class="content">
+						<h3>TÍTULO DEL ARTÍCULO</h3>
+						<p class="fecha">Fecha</p>
+						<p>Descripción del curso en dos líneas como máximo. Descripción del curso en dos líneas como máximo. Descripción del curso en dos líneas como máximo.</p>
+						<p>Descripción del curso en dos líneas como máximo. Descripción del curso en dos líneas como máximo. Descripción del curso en dos líneas como máximo...</p>
+						<a href="#">Ver más</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-3">
+					<img src="img/profesor_5.jpg" alt="">
+				</div>
+				<div class="col-9 parrafo">
+					<div class="content">
+						<h3>TÍTULO DEL ARTÍCULO</h3>
+						<p class="fecha">Fecha</p>
+						<p>Descripción del curso en dos líneas como máximo. Descripción del curso en dos líneas como máximo. Descripción del curso en dos líneas como máximo.</p>
+						<p>Descripción del curso en dos líneas como máximo. Descripción del curso en dos líneas como máximo. Descripción del curso en dos líneas como máximo...</p>
+						<a href="#">Ver más</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-3">
+					<img src="img/instructor_1.jpg" alt="">
+				</div>
+				<div class="col-9 parrafo">
+					<div class="content">
+						<h3>TÍTULO DEL ARTÍCULO</h3>
+						<p class="fecha">Fecha</p>
+						<p>Descripción del curso en dos líneas como máximo. Descripción del curso en dos líneas como máximo. Descripción del curso en dos líneas como máximo.</p>
+						<p>Descripción del curso en dos líneas como máximo. Descripción del curso en dos líneas como máximo. Descripción del curso en dos líneas como máximo...</p>
+						<a href="#">Ver más</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<section class="zapato">
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+				  <h3>Contactanos</h3>
+              		<form method="post" action="emailForm.php" class="formulario">		<input class="nombre" type="text"  id="name" name="name"  value="" placeholder="Nombre" required="required" autofocus="autofocus" class="casilla"/> 
+                    	  <input class="correo" type="email" id="email" name="email" value="" placeholder="Email" required="required" class="casilla"/> 
+                    	  <textarea class="msj-1" id="message" name="message" placeholder="Mensaje" required="required"></textarea>      
+                 		 <button>ENVIAR</button>
+                 	 </form>
+				</div>
+				<div class="col-offset-6 "></div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<p>Escuela de danza. Tdos los derechos reservados</p>
+	</footer>
 </body>
 </html>

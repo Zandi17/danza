@@ -1,79 +1,111 @@
 .baile {
 	background: url(../img/dance_1.jpg);
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
-	height: 500px;
+	height: 370px;
+}
+.baile h2 {
+	font-size: 50px;
+	color: gray;
+}
+.baile .boton{
+    padding: 15px 50px;
+    color: #fff;
+    background-color: #020D1E ;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.center {
+	margin: 40px auto;
+}
+.boton:hover {
+	background-color: rgba(26, 41, 81, 0.7);
+}
+.baile p {
+    color: gray;
+    width: 240px;
+    height: 130px;
+    line-height: 1.6;
+}
+.fondo p {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 80px;
 }
 .fondo {
 	background: url(../img/textura_2.jpg);
 	background-size: 40%;
 	background-repeat: repeat;
-	height: 450px;
+	height: 400px;
+}
+.fondo .boton {
+	padding: 15px 50px;
+    color: #fff;
+    background-color: #020D1E;
+    border: none;
+    cursor: pointer;
+    margin: 80px;
+    border-radius: 5px;
 }
 .deco {
-	height: 180px;
-	width: 200px;
+	height: 130px;
+    width: 155px;
+    position: relative;
+    left: 270px;
 }
 .uno {
 	background: url(../img/instructor_4.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 400px;
+	height: 380px;
+	position: relative;
 }
 .dos {
 	background: url(../img/profesor_9.jpg);
 	background-size: cover;
 	background-repeat:no-repeat;
-	height: 400px;
+	height: 380px;
+	position: relative;
+}
+.teacher .boton {
+    padding: 15px 127px;
+    color: #fff;
+    font-size: 30px;
+    background-color: #020D1E;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 427px;
+    z-index: 2;
+    height: 80px;
+    width: 274px;
+}
+.fondo .letra {
+	font-size: 40px;
+}
+li {
+    list-style: none;
 }
 .mapa {
 	background-color: #192951;
 	height: 500px;
 }
-.zapato {
-	background: url(../img/shoes_1.jpg);
-	background-size:  80%;
-	background-repeat:no-repeat;
-	background-position: right;
-	height: 500px;
+.map{
+	padding-top: 90px;
 }
-
-.inputs{
-    margin-bottom: 10px;
-    border-color: #E3E1E1 ;
-    padding: 10px;
+.tit {
+	color: gray;
+    width: 300px;
+    height: 100px
 }
-
-#nombre, #email{
-    width: 40%;
+.tit-1{
+    color: gray;
 }
-
-#msj{
-    width: 40%;
-    height: 100px;
-}
-.enviar{
-    width: 40%;
-    background-color: #192951 ;
-    color: #FFFFFF ;
-    border-radius: 5px;
-    padding: 10px;
-}
-.pie{
-    background-color: #192951 ;
-    padding: 20px;
-    color: #FFFFFF ;
-    font-size: 12px;
-}
-.contact h2{
-    color: #576380 ;
-    margin-bottom: 30px;
-}
-form{
-    padding-left: 80px;
-}
-footer {
-	background: #192951;
-	color: white;
-	height: 50px;
+.sombra {
+    padding-top: 30px;
 }

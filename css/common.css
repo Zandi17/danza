@@ -1,3 +1,14 @@
+header a{
+    text-decoration: none;
+    padding: 0px 60px;
+    color: rgba(25, 41, 81, 0.56);
+}
+a {
+    text-decoration: none;
+}
+ header .titulo {
+    font-size: 40px;
+}
 .zapato {
 	background: url(../img/shoes_1.jpg);
 	background-size:  80%;
@@ -6,42 +17,52 @@
 	height: 500px;
 }
 
-.inputs{
-    margin-bottom: 10px;
-    border-color: #E3E1E1 ;
-    padding: 10px;
+.formulario{
+    padding: 2% 3% 2% 30%;
+}
+input{
+    margin-bottom: 25px;
+    width: 450px;
+    padding-left: 20px;
+}
+textarea{
+    width: 450px;
+    height: 120px;
+    padding-left: 20px;
+    background-color: rgba(0,0,0,0.0);
 }
 
-#nombre, #email{
-    width: 40%;
+.zapato h3 {
+    text-align: center;
+}
+.zapato button{
+    margin:2% 0%;
+    width: 450px;
+    height: 50px;
 }
 
-#msj{
-    width: 40%;
-    height: 100px;
-}
-.enviar{
-    width: 40%;
-    background-color: #192951 ;
-    color: #FFFFFF ;
-    border-radius: 5px;
-    padding: 10px;
-}
-.pie{
-    background-color: #192951 ;
-    padding: 20px;
-    color: #FFFFFF ;
-    font-size: 12px;
-}
-.contact h2{
-    color: #576380 ;
-    margin-bottom: 30px;
-}
-form{
-    padding-left: 80px;
-}
 footer {
 	background: #192951;
 	color: white;
 	height: 50px;
+}
+.nombre {
+    background-image: url(
+http://rexkirby.com/kirbyandson/images/name.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+.correo {
+    background-image: url(
+http://rexkirby.com/kirbyandson/images/email.svg);    background-size: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+
+}
+.msj-1 {
+    background-image: url(
+
+http://rexkirby.com/kirbyandson/images/comment.svg);    
+    background-size: 20px;
+    background-repeat: no-repeat;
 }

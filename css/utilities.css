@@ -66,3 +66,8 @@
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+.ph-14 {
+	padding-left: 14px;
+	padding-right: 14px;
+}

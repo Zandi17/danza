@@ -26,9 +26,23 @@
 	background: url(../img/lined_paper.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 500px;
+	height: 800px;
 }
-img {
-	height: 180px;
-	width: 210px;
+
+.profesor{
+	height: 186px;
+	overflow: hidden;
+}
+.pilar{
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+.pilares{
+	margin-top: 50px;
+}
+.fondo2 .frase {
+	text-align: center;
+	font-size: 30px;
+	padding-top: 120px;
 }

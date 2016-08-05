@@ -1,1 +1,19 @@
-/* Inserta tu codigo aqui */
+.picture {
+	height: 180px;
+}
+.fondo {
+	background-color: #F4F4F4;
+}
+.parrafo {
+	background-color: #D0D3D8;
+}
+
+.botones {
+	padding: 14px 49px;
+	border: 1px solid #192951;
+	border-radius: 5px;
+	background-color: #192951;
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;
+}

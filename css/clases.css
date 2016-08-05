@@ -1,1 +1,68 @@
-/* Inserta tu codigo aqui */
+/*section*/
+
+#gris {
+	background-color: #BBBBBB;
+}
+#gris .titulo {
+	text-align: center;
+}
+.section-2 {
+	padding: 21px;
+}
+.titulo {
+	font-size: 20px;
+	padding-top: 10px;
+}
+.clases1{
+	background: url(../img/dance_12.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    height: 430px;
+    width: 320px;
+}
+.parrafo {
+    text-align: center;
+    background: black;
+    opacity: 0.4;
+    height: 80px;
+    width: 290px;
+    color: white;
+    margin: 0 auto;
+   	position: relative;
+    top: 170px
+}
+.clases2{
+	background: url(../img/breakdance.jpg);
+	background-size: 100%;
+    background-repeat: no-repeat;
+    height: 430px;
+    width: 320px;
+}
+.clases3{
+	background: url(../img/lirical-jazz.jpg);
+	background-size: 100%;
+    background-repeat: no-repeat;
+    height: 430px;
+    width: 320px;
+}
+.clases4{
+	background: url(../img/arabe.jpg);
+	background-size: 100%;
+    background-repeat: no-repeat;
+    height: 430px;
+    width: 320px;
+}
+.clases5{
+	background: url(../img/little.jpg);
+	background-size: 100%;
+    background-repeat: no-repeat;
+    height: 430px;
+    width: 320px;
+}
+.clases6{
+	background: url(../img/yoga.jpg);
+	background-size: 110%;
+    background-repeat: no-repeat;
+    height: 430px;
+    width: 320px;
+}

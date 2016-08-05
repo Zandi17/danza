@@ -5,36 +5,95 @@
 	<title>Escuela de Danza</title>
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
 	<link rel="stylesheet" type="text/css" href="css/simplegrid.css">
-	<link rel="stylesheet" type="text/css" href="css/simplegrid.min.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
-	<link rel="stylesheet" type="text/css" href="css/nosotros.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/clases.css">
 </head>
 <body>
 	<header>
-		<div class="container-fluid">
-				<div class="row">
-					<div class="col-12">
-						<h1>ESCUELA DE DANZA</h1>
-						<nav>
-							<a href="#">Nosotros</a>
-							<a href="#">Clases</a>
-							<a href="#">Blog</a>
-							<a href="#">Contáctanos</a>
-						</nav>
+        <div class="container">
+            <div class="row mg-0">
+                <div class="col-12 text-center">
+                    <h1  class="pb-5 titulo">ESCUELA DE DANZA</h1>
+                    <nav class="pb-5">
+                        <a href="#">Nosotros</a>
+                        <a href="#">Clases</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Contáctanos</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+	<section id="gris">	
+		<div class="container">
+			<h2 class="titulo">OFERTA DE CLASES</h2>
+			<div class="row section-2">
+				<div class="col-4">
+					<div class="clases1">
+						<div class="parrafo">
+							<h2>BALLET</h2>
+							<p>El ballet es la base de casi todos los estilos de baile</p>
+						</div>
 					</div>
 				</div>
-		</div>
-	</header>
-	<section>
-		
+				<div class="col-4">
+					<div class="clases2">
+						<div class="parrafo">
+							<h2>DANCE MODERN</h2>
+							<p>El ballet es la base de casi todos los estilos de baile</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<div class="clases3">
+						<div class="parrafo">
+							<h2>JAZZ LIRIC</h2>
+							<p>El ballet es la base de casi todos los estilos de baile</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row section-2">
+				<div class="col-4">
+					<div class="clases4">
+						<div class="parrafo">
+							<h2>ARABIC DANCE</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>	
+				</div>
+				<div class="col-4">
+					<div class="clases5">
+						<div class="parrafo">
+							<h2>KIDS LESSONS</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>		
+				</div>
+				<div class="col-4">
+					<div class="clases6">
+						<div class="parrafo">
+							<h2>YOGA</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>		
+				</div>
+			</div>
+		</div>	
 	</section>
-	<section class="zapato">
-		<div class="container-fluid ">
+<section class="zapato">
+		<div class="container">
 			<div class="row">
-				<div class="col-6"></div>
+				<div class="col-6">
+				  <h3>Contactanos</h3>
+              		<form method="post" action="emailForm.php" class="formulario">		<input class="nombre" type="text"  id="name" name="name"  value="" placeholder="Nombre" required="required" autofocus="autofocus" class="casilla"/> 
+                    	  <input class="correo" type="email" id="email" name="email" value="" placeholder="Email" required="required" class="casilla"/> 
+                    	  <textarea class="msj-1" id="message" name="message" placeholder="Mensaje" required="required"></textarea>      
+                 		 <button>ENVIAR</button>
+                 	 </form>
+				</div>
 				<div class="col-offset-6 "></div>
 			</div>
 		</div>
@@ -42,7 +101,5 @@
 	<footer>
 		<p>Escuela de danza. Tdos los derechos reservados</p>
 	</footer>
-</body>
-</html>
 </body>
 </html>
